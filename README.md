@@ -1,3 +1,5 @@
+
+
 # Perl
 https://www.tutorialspoint.com/perl/perl_packages_modules.htm
 
@@ -25,6 +27,26 @@ A Perl script is a text file, which keeps perl code in it and it can be executed
 $perl  script.pl          # Unix/Linux
 
 Programming Perl
+https://www.youtube.com/watch?v=WEghIXs8F6c
+
+class/module file define package at lib\animal\cat.pm .\lion.pm
+at perltest.pl
+use lib 'lib';
+use Animal::Cat;
+use Animal::Lion;
+
+https://www.tutorialspoint.com/perl/perl_packages_modules.htm
 
 Client - Server using Perl socket.
+Socket Programming
+server.pl
+SERVER started on port 7890
+
+client.pl
+Smile from server
+
+Object Oriented Perl Example
+
+myclass.pl
+
 
