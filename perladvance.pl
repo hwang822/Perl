@@ -43,8 +43,10 @@ while ($client_addr = accept(NEW_SOCKET, SOCKET)) {
 # !/usr/bin/perl -w
 # Filename : client.pl
 
-#use strict;
-#use Socket;
+=begin
+
+use strict;
+use Socket;
 
 # initialize host and port
 my $host = shift || 'localhost';
@@ -62,7 +64,7 @@ while ($line = <SOCKET>) {
    print "$line\n";
 }
 close SOCKET or die "close:";
-
+=cut
 
 # Object Oriented
 
@@ -72,3 +74,15 @@ print "\nObject Oriented\n";
 
 print "\nPackages & Modules\n";
 
+# CGI
+
+print "\nCGI\n";
+
+# A Common Gateway Interface
+
+
+print "Content-type: text/html\n\n";
+print "<font size=+1>Environment</font>\n";
+foreach (sort keys %ENV) {
+#   print "<b>$_</b>: $ENV{$_}<br>\n";
+}
