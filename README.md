@@ -27,7 +27,7 @@ A Perl script is a text file, which keeps perl code in it and it can be executed
 $perl  script.pl          # Unix/Linux
 
 #!/usr/bin/perl
-# This will print "Hello, World"
+#! This will print "Hello, World"
 print "Hello, world\n";
 
 Programming Perl
@@ -41,6 +41,9 @@ use Animal::Lion;
 
 https://www.tutorialspoint.com/perl/perl_packages_modules.htm
 
+#*******************
+Socket
+
 Client - Server using Perl socket.
 Socket Programming
 server.pl
@@ -52,5 +55,14 @@ Smile from server
 Object Oriented Perl Example
 
 myclass.pl
+
+#*******************
+CGI  A Common Gateway Interface, or CGI, is a set of standards that defines how information is exchanged between the web server and a custom script.
+
+Your browser contacts web server using HTTP protocol and demands for the URL, i.e., web page filename.
+
+Web Server will check the URL and will look for the filename requested. If web server finds that file then it sends the file back to the browser without any further execution otherwise sends an error message indicating that you have requested a wrong file.
+
+Web browser takes response from web server and displays either the received file content or an error message in case file is not found.
 
 
