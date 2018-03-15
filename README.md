@@ -26,6 +26,10 @@ c:\Workarea\Perl>perl -e "print \"Hello World\n"\"  # Windows
 A Perl script is a text file, which keeps perl code in it and it can be executed at the command line by invoking the interpreter.
 $perl  script.pl          # Unix/Linux
 
+#!/usr/bin/perl
+# This will print "Hello, World"
+print "Hello, world\n";
+
 Programming Perl
 https://www.youtube.com/watch?v=WEghIXs8F6c
 
